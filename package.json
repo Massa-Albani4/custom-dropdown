@@ -1,0 +1,15 @@
+{
+  "name": "custom-dropdown",
+  "version": "1.0.0",
+  "description": "Custom Dropdown menu using js, html, tailwind css\r https://roadmap.sh/projects/custom-dropdown",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
