@@ -1,8 +1,7 @@
 const btn = document.getElementById("btn");
 const dropdown = document.getElementById("dropdown");
-const arrow_down = document.getElementById("arrow_down");
-const arrow_up = document.getElementById("arrow_up");
+const arrow_down = document.getElementById("arrow-down");
 
 btn.addEventListener("click", () => {
-  dropdown.style.display = "inline";
-});
+  dropdown.classList.toggle("hidden");
+})
