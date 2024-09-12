@@ -6,16 +6,42 @@
     <title>Custom Dropdown</title>
     <link rel="stylesheet" href="/public/output.css" />
   </head>
-  <body class="flex justify-center items-center h-screen">
-    <div>
-      <button>Catagories</button>
-      <div>
-        <a href="">Action</a>
-        <a href="">Adventure</a>
-        <a href="">RPG</a>
-        <a href="">Open World</a>
-        <a href="">City Builders</a>
+  <body class="flex justify-center bg-[#FFFAFA] items-center h-screen">
+    <div class="w-28">
+      <button
+        class="pl-7 pr-10 font-semibold cursor-pointer py-1.5 border-[1px] rounded-md border-black"
+        id="btn"
+      >
+        Genre
+      </button>
+      <span class="relative left-[4.9rem] bottom-[1.55rem] cursor-pointer">
+        <img class="w-4" src="./icons/arrow-down.png" alt="dropdown" />
+      </span>
+      <span class="relative left-[4.9rem] bottom-[1.55rem] cursor-pointer">
+        <img
+          class="hidden w-4"
+          src="./icons/arrow-up.png"
+          alt="cancel-dropdown"
+        />
+      </span>
+      <div class="text-center relative bottom-1 hidden" id="dropdown">
+        <a
+          class="block border-black rounded-t-xl border-[1px] py-2"
+          href=""
+          >Action</a
+        >
+        <a class="block border-black border-x-[1px] py-2" href="">RPG</a>
+        <a class="block border-black border-x-[1px] border-t-[1px] py-2" href=""
+          >Adventure</a
+        >
+        <a class="block border-black border-x-[1px] border-t-[1px] py-2" href=""
+          >Open World</a
+        >
+        <a class="block border-black rounded-b-xl border-[1px] py-2" href=""
+          >City Builders</a
+        >
       </div>
     </div>
   </body>
+  <script src="./main.js"></script>
 </html>
